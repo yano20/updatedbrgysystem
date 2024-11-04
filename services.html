@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Barangay Sonimala</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.webp" type="image/x-icon"> <!-- Favicon link -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url('hall.webp'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            color: #fff; /* Set text color to white for better contrast */
+        }
+
+        /* Header and Menu */
+        header {
+            background-color: rgba(0, 128, 128, 0.8); /* Add slight transparency to header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-menu {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .main-menu li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .main-menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Services Section */
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 1200px; /* Optional: limits the width of the services */
+            margin: 0 auto; /* Centers the services in the middle of the page */
+        }
+
+        /* Service Box */
+        .service-box {
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent */
+            padding: 25px; /* Increased padding for a spacious look */
+            border-radius: 12px;
+            max-width: 350px; /* Increased width to make the boxes bigger */
+            text-align: center;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly larger shadow for emphasis */
+            transition: transform 0.2s; /* Smooth animation for hover effect */
+        }
+
+        .service-box:hover {
+            transform: translateY(-5px); /* Lift effect on hover */
+        }
+
+        .service-box h3 {
+            color: #008080;
+            margin-bottom: 12px; /* Adjusted for slightly larger look */
+            font-size: 20px; /* Increased font size */
+        }
+
+        .service-box p {
+            font-size: 16px; /* Increased text size */
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="About.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="services">
+            <div class="service-box">
+                <h3>Healthcare Services</h3>
+                <p>We provide essential healthcare services, including regular check-ups, vaccination drives, and health education programs for the community.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Community Development</h3>
+                <p>Our barangay is committed to community development projects that enhance infrastructure, promote sustainable practices, and foster community participation.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Emergency Assistance</h3>
+                <p>We offer emergency assistance services, including disaster preparedness training and immediate response to local emergencies.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

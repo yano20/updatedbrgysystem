@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Uno Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.webp" type="image/x-icon"> <!-- Favicon link -->
+</head>
+<body>
+    <header>
+        <img src="logo.webp" alt="Barangay Logo" class="logo"> <!-- Update the src to your logo file -->
+        <h1>Home Page</h1>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="About.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Welcome to Barangay Uno</h1>
+            <p>Welcome to Barangay Uno, a vibrant community located in Alaminos. Our barangay is dedicated to serving its residents and ensuring a safe, inclusive, and thriving environment.</p>
+        </section>
+        <button id="subscribe-btn">Subscribe to Newsletter</button>
+    </main>
+
+    <div id="newsletter-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="close-popup">&times;</span>
+            <h3>Subscribe to Our Newsletter</h3>
+           
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
